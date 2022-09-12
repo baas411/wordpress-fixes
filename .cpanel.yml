@@ -1,0 +1,5 @@
+---
+deployment:
+ tasks:
+ - export DEPLOYPATH=/home/baasin1q/client.baasinteractive.nl/wordpress-fixes
+ - /bin/cp functions.php $DEPLOYPATH
